@@ -1,0 +1,32 @@
+.cta-content {
+    background-color: var(--pistachio);
+    text-align: center;
+    padding: 50px 15px;
+    margin-block-end: 30px;
+}
+
+.cta .section-title {
+    color: var(--white);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-600);
+    line-height: 1.2;
+    margin-block-end: 25px;
+}
+
+.img-cover {
+    object-fit: cover;
+}
+
+.cta .btn-outline {
+    margin-inline: auto;
+}
+
+.cta .btn-outline:hover {
+    background-color: black;
+    border: 2px solid transparent;
+}
+
+.cta-banner {
+    background-color: var(--light-gray);
+    max-height: 300px;
+}

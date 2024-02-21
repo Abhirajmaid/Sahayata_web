@@ -1,0 +1,79 @@
+.event {
+    padding-block-end: 120px;
+}
+
+.event .section-subtitle {
+    justify-content: center;
+}
+
+.event .section-title {
+    text-align: center;
+    margin-block: 15px 50px;
+}
+
+.event-list {
+    display: grid;
+    gap: 30px;
+    margin-block-end: 70px;
+}
+
+.event-card {
+    border: 1px solid var(--platinum);
+    padding: 40px 30px;
+    border-radius: 2px;
+    outline: 3px solid transparent;
+    transition: var(--transition-2);
+}
+
+.event-poster {
+    width: 15vh;
+    object-fit: cover;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px var(--pistachio_50);
+}
+
+.event-card:is(:hover, :focus-within) {
+    outline-color: var(--pistachio);
+}
+
+.event-card .card-time {
+    background-color: var(--pistachio);
+    color: var(--white);
+    font-weight: var(--fw-600);
+    line-height: 1.3;
+    max-width: max-content;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px var(--pistachio_50);
+}
+
+.event-card .card-time .month {
+    font-size: 2.1rem;
+}
+
+.event-card .card-time .date {
+    font-size: var(--fs-4);
+}
+
+.event-card .card-subtitle {
+    margin-bottom: 5px;
+    color: var(--pistachio);
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    letter-spacing: -1px;
+}
+
+.event-card .card-title {
+    color: var(--eerie-black-2);
+    letter-spacing: -1px;
+}
+
+.event-card .card-text {
+    font-family: var(--ff-inter);
+    margin-block: 5px 30px;
+}
+
+.event .btn-secondary {
+    margin-inline: auto;
+}

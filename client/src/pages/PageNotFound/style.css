@@ -1,0 +1,12 @@
+.page_container {
+    display: flex;
+    width: auto;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page_container h1 {
+    font-size: 32px;
+}
