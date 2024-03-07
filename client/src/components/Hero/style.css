@@ -32,7 +32,10 @@
 @media (width < 520px) {
     .hero {
         background-color: var(--eerie-black-1);
-        background-image: url('../../../public/images/hero1.jpg');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/images/hero.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         color: var(--white);
         max-height: 500px;
         padding-block: 0px 60px;
