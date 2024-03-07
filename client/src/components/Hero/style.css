@@ -1,12 +1,10 @@
 .hero {
     background-color: var(--eerie-black-1);
     color: var(--white);
-    min-height: 700px;
-    padding-block: 120px 60px;
     display: grid;
     align-items: center;
     position: relative;
-    height: calc(100vh + 5rem);
+    max-height: 1000px;
 }
 
 .hero .section-subtitle {

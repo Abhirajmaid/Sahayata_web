@@ -32,7 +32,6 @@ function App() {
               <Route path="/donation" element={<Donation />} />
               <Route path="/event/:id" element={<SingleEvent />} />
               <Route path="/success" element={<Success />} />
-              <Route path="/success" element={<Success />} />
               <Route path="/events" element={<Events />} />
               <Route path="/about-us" element={<About />} />
               <Route path="/join" element={<JoinUs />} />

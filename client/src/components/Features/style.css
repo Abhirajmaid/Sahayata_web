@@ -6,7 +6,7 @@
 
 .features-list {
     display: grid;
-    gap: 30px;
+    gap: 20px;
 }
 
 .features-item {
