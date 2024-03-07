@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <Hero />
       <Features />
-      <About />
+      {/* <About /> */}
       <CTA
         title="We're looking for young activists."
         ctaText="Join as Volunteer"

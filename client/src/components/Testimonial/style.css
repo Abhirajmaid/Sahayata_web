@@ -67,4 +67,12 @@
     .container__right {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .swiper {
+        width: 100%;
+    }
 }

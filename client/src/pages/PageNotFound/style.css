@@ -10,3 +10,7 @@
 .page_container h1 {
     font-size: 32px;
 }
+
+.notfound_page h1 {
+    text-align: center;
+}
